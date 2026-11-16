@@ -1,0 +1,17 @@
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
